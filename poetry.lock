@@ -885,7 +885,7 @@ description = "A remote shell for working with MicroPython boards."
 name = "rshell"
 optional = true
 python-versions = "*"
-version = "0.0.26"
+version = "0.0.28"
 
 [package.dependencies]
 pyreadline = "*"
@@ -1213,7 +1213,7 @@ create_stubs = ["pyminifier", "rshell"]
 docs = ["sphinx", "sphinx-click", "sphinx-autodoc-typehints", "recommonmark", "sphinx_rtd_theme"]
 
 [metadata]
-content-hash = "2ccf37dbb4985bac89564f2d4bd736fb6f8ae2d3e6427ef0841d923b6aa63455"
+content-hash = "41328a354057539332a6773257d3b1b10321e3a196f9317a98393b222fab512c"
 lock-version = "1.0"
 python-versions = "^3.6"
 
@@ -1635,7 +1635,7 @@ rope = [
     {file = "rope-0.14.0.tar.gz", hash = "sha256:c5c5a6a87f7b1a2095fb311135e2a3d1f194f5ecb96900fdd0a9100881f48aaf"},
 ]
 rshell = [
-    {file = "rshell-0.0.26.tar.gz", hash = "sha256:cc447a3c9853a50585d7fdd6356922e8a89debb67932e60cf241f23fbd72db16"},
+    {file = "rshell-0.0.28.tar.gz", hash = "sha256:d28e6bd872734c68a2b6169adf43b6f71c745fa66ec89ae88a975e38c1a636b3"},
 ]
 six = [
     {file = "six-1.15.0-py2.py3-none-any.whl", hash = "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"},
